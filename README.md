@@ -2,7 +2,7 @@
 
 ## Overview :	
 This repository contains the questions and solutions to the problems asked during NISBXtreme on 24th August 2020.    
-Sameple scripts used to generate the test cases are also included in some of the folders.		
+Sample scripts used to generate the test cases are also included in some of the folders.		
 <br><br>
 
 ## Folder structure :
