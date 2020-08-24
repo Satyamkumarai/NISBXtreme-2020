@@ -28,10 +28,10 @@ Sameple scripts used to generate the test cases are also included in some of the
     -  ```bash
   		$ python solution.py
   		```
-  - Linus / MacOs
+  - Linux / MacOs
     - ```bash
 		$ python3 solution.py
 		```
 
 ## Final Notes:   
-	There may be other faster and more efficient algorithm , this are the solutions we came up with which can solve the hackerrank limits quite easily. Pull requests are always welcome.
+There may be other faster and more efficient algorithm ,this are the solutions we came up with which can solve the hackerrank limits quite easily. Pull requests are always welcome.
