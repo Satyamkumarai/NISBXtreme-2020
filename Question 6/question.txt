@@ -1,0 +1,24 @@
+6. Maximal Triangle Sum:
+	Desc:
+		Given a integer number pyramid,  starting at the top of the triangle and moving to adjacent numbers on the row below, find the maximum sum of the digits.
+
+	input:
+		N [ number of lines ]
+		elemnts of the pyramid [ x N ]
+
+	constraints:
+		N < 200
+
+	output:
+		M [ integer ]
+	
+	sample io:
+		.	4
+			3
+			7 4
+			2 4 6
+			8 5 9 3
+		. 23
+
+	explaination:
+		In the above triangle, the route with the maximum sum is 3 + 7 + 4 + 9 = 23

@@ -1,0 +1,24 @@
+12. Number Dictionary:
+	Desc:
+		Given an integer N, print the english representation of that.
+		For example, if N = 10 , print "Ten", N = 21 , print "Twenty One"
+		Note: 
+			1 . Spelling is US/UK ie Million, Billion, etc
+			2 . Do not print the "and" ie 201 is "Two Hundred One"
+	
+	input:
+		N [ integer : number of integers ]
+		x [ x N ]
+
+	constraints:
+		N < 100000
+		x < 100000000000
+	output:
+		s [ x N ]
+
+	sample io:
+		. 4
+			13
+			133
+			142
+			1023

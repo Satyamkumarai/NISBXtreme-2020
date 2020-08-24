@@ -1,0 +1,26 @@
+9. Intersections:
+	Desc:
+		Given N (x,y) coordinate tuple pairs, find the number of distinct true intersections between any two of the lines formed.
+		An intersection is a true intersection if 
+			1. The point of intersection is not one of the two endpoints given , and 
+			2. The point of intersection is an interior point on both the lines.
+
+	input:
+		N [ integer : number of lines ]
+		x1 y1 x2 y2 [ x N : space seperated integers ]
+
+	constraints:
+		N < 5000
+		0 < x < 500
+		0 < y < 500
+	
+	output:
+		P [ integer ]
+
+	sample io:
+		. 3
+			27 44 12 32
+			46 53 17 62	
+			46 70 22 40
+
+		. 1

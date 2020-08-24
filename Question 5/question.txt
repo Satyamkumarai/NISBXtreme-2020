@@ -1,0 +1,20 @@
+5. Square digit chains:
+	Desc:
+		A chain is formed by continuously  adding the squares of the digits of the previous number until the chain eventually ends up at 1 or 89.
+		Given a number N and a flag 1 or 89 , find the count of numbers below N which end up in the flag.
+		NOTE: The chain will always terminate at either 1 or 89.
+
+	input:
+		N [ integer ]
+		t [ integer 1 or 89 ]
+
+	constraints:
+		N < 100000
+
+	output:
+		N [ integer ]
+
+	sample io:
+		.  1000
+			1
+		.  858

@@ -2,17 +2,19 @@
 
 ## Overview :	
 This repository contains the questions and solutions to the problems asked during NISBXtreme on 24th August 2020.    
-Sameple scripts used to generate the test cases are also included.		
+Sameple scripts used to generate the test cases are also included in some of the folders.		
 <br><br>
 
 ## Folder structure :
 - Each question has the following folder structure :   
 	```
 	./Question N
+		├── Assets/ [ optional ]  
 		├── question.txt 
-		├── solution.<cpp/py>
-		└── generateTestCases.py
+		├── solution.<cpp/py> 
+		└── generateTestCases.py [ optional ]
 	```
+	The Assets folder contains all the images / gifs used in problem.
 
 - The root also contains a `requirements.txt` for the modules needed for the generation of test cases.
 
@@ -30,3 +32,6 @@ Sameple scripts used to generate the test cases are also included.
     - ```bash
 		$ python3 solution.py
 		```
+
+## Final Notes:   
+	There may be other faster and more efficient algorithm , this are the solutions we came up with which can solve the hackerrank limits quite easily. Pull requests are always welcome.

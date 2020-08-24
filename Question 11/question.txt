@@ -1,0 +1,20 @@
+11. Board tiling:
+	Desc:
+		<triomino pic here>
+		Triominos are three tiles shapes with multiple configurations as shown above.
+		Given a N x M ( Width x Height )grid , and multiple triominos. Find the number of ways you can tile the grid with only triominos.
+		If not possible, output 0.
+
+	input:
+		N M [ integer ]
+
+	constraints:
+		N < 12
+		M < 12
+
+	output:
+		N [ integer ]
+
+	sample io:
+		. 7 3
+		. 441

@@ -1,0 +1,18 @@
+3. Josephus:
+	Desc:
+		We will start with N people numbered t to N around a circle, and we'll eliminate every Mth remaining person until only one survives .Find the number of the person who survies.
+
+	input:
+		N [ integer ]
+		M [ integer ]
+
+	constraints:
+		N < 100000
+		M < N
+	
+	output:
+		P [ integer ]
+
+	sample io:
+		. 10
+		. 5

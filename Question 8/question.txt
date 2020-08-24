@@ -1,0 +1,44 @@
+8. Point inclusion:
+	Desc:
+		Given M (x y) pairs denoting the points of a M sided polygon & a point P(x y). Find out if the point lies within the polygon. Print YES if it is included else print NO
+
+	input:
+		N [ number of test cases : integer ]
+		M [ number of points of polygon : integer ]
+		x y [ points : x M : integers]
+		.
+		.
+		px py [ point : integers]
+
+	constraints:
+		N < 10
+		M < 10
+		x < 100
+		y < 100
+
+	output:
+		YES | NO [ x N ]
+		
+	sample io:
+		.  2
+			4
+			0  0
+			10 0
+			10 10
+			0  10
+			20 20
+			3
+			0  0
+			5  5
+			5  0
+			3  3
+
+		. NO 
+			YES
+
+	explaination:
+		In the above sample , we have 2 test cases.
+		The first case gives 4 points {0, 0}, {10, 0}, {10, 10}, {0, 10} for the polygon and defines the point as {20,20}.
+		As {20, 20} doesnt lie inside that polygon , print NO
+		In the second case, given 3 points {0, 0}, {5, 5}, {5, 0} for the polygon and the point as {3, 3}.
+		as {3, 3} lies inside the polygon , print YES

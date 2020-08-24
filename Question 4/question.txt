@@ -1,0 +1,16 @@
+4. Fast Factorial:
+	Desc:
+		Given a number N, find N! [ N Factorial ] , and print the first 5 digits.
+
+	input:
+		N [ integer ]
+
+	constraints:
+		N <= 100000
+
+	output:
+		N [ integer ]
+
+	sample io:
+		. 1000
+		. 40238

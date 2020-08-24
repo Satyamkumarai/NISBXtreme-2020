@@ -1,0 +1,31 @@
+1. Convert to RPN:
+
+	Desc:
+		Transform the algebraic expression with brackets into RPN form (Reverse Polish Notation). 
+		Characters:
+			+, -, *, /, ( )
+		Priority:
+			+, -, *, /, ( ). [ priority from lowest to highest ]
+
+	Input:
+		N [The number of expressions]
+		expressions [x N]
+	
+
+	Constraints:
+		N < 100
+		len(expresssion) < 300
+	
+	
+	Output:
+		expressions in RPN form
+
+
+	Sample io:
+		. 3
+			(3+(4*2))
+			((4+4)*(5+2))
+			((2+2)*((2+(1+5))*(6+7)))
+		
+		. 342*+
+			44+52+*
